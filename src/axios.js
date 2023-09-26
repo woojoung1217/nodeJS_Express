@@ -2,8 +2,9 @@
 //axios
 
 import { useEffect, useState } from "react";
+import axios from "axios";
 
-function App() {
+function App2() {
   const [todoList, setTodoList] = useState([]);
 
   const fetchData = () => {
@@ -76,4 +77,4 @@ function App() {
   );
 }
 
-export default App;
+export default App2;
